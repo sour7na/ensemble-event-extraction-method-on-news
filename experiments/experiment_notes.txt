@@ -1,0 +1,6 @@
+Runs: 1
+Models: rules + heuristic + optional hf_ner
+CS algorithm: iterative update, iters=3, alpha=0.6
+Evaluation: macro Precision/Recall/F1 on event_type using sample_labels.csv
+Output format: JSONL with confidence_score and per-model supports
+CPU: yes
